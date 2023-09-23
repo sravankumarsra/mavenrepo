@@ -1,0 +1,249 @@
+2023-09-23 07:28:13,937 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG RUNNING: Suite: "Surefire test" containing "3" Tests (config: null)
+2023-09-23 07:28:13,969 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:28:15,544 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@33c2bd
+2023-09-23 07:28:15,774 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 1806 ms
+2023-09-23 07:28:15,778 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testEntity()
+2023-09-23 07:28:16,430 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:28:16,553 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-JeH8mOxX-1]: MySampleImpl.start([])
+2023-09-23 07:28:16,564 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-JeH8mOxX-1]: Setting MySampleImpl{id=z0kkhs5y9m} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:16,612 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-JeH8mOxX-3]: Started application BasicApplicationImpl{id=r89gaasuln}
+2023-09-23 07:28:16,615 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 28 task(s)
+2023-09-23 07:28:16,648 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testEntity() finished in 870 ms
+2023-09-23 07:28:16,649 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:28:16,685 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-JeH8mOxX-3]: Stopping application BasicApplicationImpl{id=r89gaasuln}
+2023-09-23 07:28:16,697 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-JeH8mOxX-7]: MySampleImpl.stop()
+2023-09-23 07:28:16,703 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-JeH8mOxX-3]: Stopped application BasicApplicationImpl{id=r89gaasuln}
+2023-09-23 07:28:16,719 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 70 ms
+2023-09-23 07:28:16,720 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:28:16,722 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@3fbcfe81
+2023-09-23 07:28:16,743 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 23 ms
+2023-09-23 07:28:16,745 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework()
+2023-09-23 07:28:17,083 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config defaultval
+2023-09-23 07:28:17,236 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-szzG5IZo-1]: MySampleImpl.start([])
+2023-09-23 07:28:17,237 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-szzG5IZo-1]: Setting MySampleImpl{id=lrzgu137l3} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:17,338 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-szzG5IZo-14]: MySampleImpl.myEffector(myVal)
+2023-09-23 07:28:17,375 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-szzG5IZo-14]: MySampleImpl.stop()
+2023-09-23 07:28:17,404 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-szzG5IZo-0]: Started application BasicApplicationImpl{id=cq7163qr5u}
+2023-09-23 07:28:17,405 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 34 task(s)
+2023-09-23 07:28:17,468 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework() finished in 714 ms
+2023-09-23 07:28:17,469 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:28:17,474 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-szzG5IZo-0]: Stopping application BasicApplicationImpl{id=cq7163qr5u}
+2023-09-23 07:28:17,479 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-szzG5IZo-13]: MySampleImpl.stop()
+2023-09-23 07:28:17,534 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-szzG5IZo-0]: Stopped application BasicApplicationImpl{id=cq7163qr5u}
+2023-09-23 07:28:17,554 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 86 ms
+2023-09-23 07:28:17,555 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp()
+2023-09-23 07:28:17,556 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@4eb1c69
+2023-09-23 07:28:17,648 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp() finished in 93 ms
+2023-09-23 07:28:17,650 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleTest.testEntity()
+2023-09-23 07:28:17,682 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:28:17,706 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-k2rfxwjK-2]: MySampleImpl.start([])
+2023-09-23 07:28:17,707 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-k2rfxwjK-2]: Setting MySampleImpl{id=z13lv8eggn} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:17,743 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.myEffector(myArgVal)
+2023-09-23 07:28:17,753 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-k2rfxwjK-1]: MySampleImpl.stop()
+2023-09-23 07:28:17,763 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleTest.testEntity() finished in 112 ms
+2023-09-23 07:28:17,763 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown()
+2023-09-23 07:28:17,778 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown() finished in 15 ms
+2023-09-23 07:28:17,803 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG 
+===============================================
+    Surefire test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+2023-09-23 07:28:50,235 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG RUNNING: Suite: "Surefire test" containing "3" Tests (config: null)
+2023-09-23 07:28:50,269 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:28:51,658 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@33c2bd
+2023-09-23 07:28:51,855 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 1587 ms
+2023-09-23 07:28:51,857 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testEntity()
+2023-09-23 07:28:52,565 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:28:52,675 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-QlaH2B9B-0]: MySampleImpl.start([])
+2023-09-23 07:28:52,683 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-QlaH2B9B-0]: Setting MySampleImpl{id=hum12tgh76} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:52,787 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-QlaH2B9B-3]: Started application BasicApplicationImpl{id=vfzbvfrl4x}
+2023-09-23 07:28:52,793 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 28 task(s)
+2023-09-23 07:28:52,841 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testEntity() finished in 983 ms
+2023-09-23 07:28:52,842 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:28:52,850 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-QlaH2B9B-3]: Stopping application BasicApplicationImpl{id=vfzbvfrl4x}
+2023-09-23 07:28:52,855 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-QlaH2B9B-8]: MySampleImpl.stop()
+2023-09-23 07:28:52,859 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-QlaH2B9B-3]: Stopped application BasicApplicationImpl{id=vfzbvfrl4x}
+2023-09-23 07:28:52,883 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 42 ms
+2023-09-23 07:28:52,883 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:28:52,884 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@38a1a26
+2023-09-23 07:28:52,903 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 20 ms
+2023-09-23 07:28:52,905 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework()
+2023-09-23 07:28:53,253 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config defaultval
+2023-09-23 07:28:53,385 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-J0zXdDil-0]: MySampleImpl.start([])
+2023-09-23 07:28:53,393 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-J0zXdDil-0]: Setting MySampleImpl{id=pe8sr531ur} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:53,474 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-J0zXdDil-11]: MySampleImpl.myEffector(myVal)
+2023-09-23 07:28:53,491 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-J0zXdDil-6]: MySampleImpl.stop()
+2023-09-23 07:28:53,544 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-J0zXdDil-3]: Started application BasicApplicationImpl{id=dxyr0f1e2h}
+2023-09-23 07:28:53,546 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 34 task(s)
+2023-09-23 07:28:53,606 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework() finished in 701 ms
+2023-09-23 07:28:53,610 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:28:53,613 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-J0zXdDil-3]: Stopping application BasicApplicationImpl{id=dxyr0f1e2h}
+2023-09-23 07:28:53,619 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-J0zXdDil-4]: MySampleImpl.stop()
+2023-09-23 07:28:53,634 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-J0zXdDil-3]: Stopped application BasicApplicationImpl{id=dxyr0f1e2h}
+2023-09-23 07:28:53,660 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 51 ms
+2023-09-23 07:28:53,661 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp()
+2023-09-23 07:28:53,665 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@4eb1c69
+2023-09-23 07:28:53,758 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp() finished in 97 ms
+2023-09-23 07:28:53,763 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleTest.testEntity()
+2023-09-23 07:28:53,794 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:28:53,817 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-RTIMDaEO-1]: MySampleImpl.start([])
+2023-09-23 07:28:53,818 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-RTIMDaEO-1]: Setting MySampleImpl{id=w0b2rm9j4p} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:28:53,838 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.myEffector(myArgVal)
+2023-09-23 07:28:53,841 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-RTIMDaEO-7]: MySampleImpl.stop()
+2023-09-23 07:28:53,863 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleTest.testEntity() finished in 105 ms
+2023-09-23 07:28:53,864 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown()
+2023-09-23 07:28:53,870 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown() finished in 6 ms
+2023-09-23 07:28:53,896 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG 
+===============================================
+    Surefire test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+2023-09-23 07:35:49,529 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG RUNNING: Suite: "Surefire test" containing "3" Tests (config: null)
+2023-09-23 07:35:49,552 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:35:50,974 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@33c2bd
+2023-09-23 07:35:51,170 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 1619 ms
+2023-09-23 07:35:51,172 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testEntity()
+2023-09-23 07:35:51,826 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:35:51,949 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-SPVqAp1R-2]: MySampleImpl.start([])
+2023-09-23 07:35:51,967 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-SPVqAp1R-2]: Setting MySampleImpl{id=u7km5jwqou} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:35:52,075 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-SPVqAp1R-3]: Started application BasicApplicationImpl{id=ga9nvd7da9}
+2023-09-23 07:35:52,077 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 28 task(s)
+2023-09-23 07:35:52,115 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testEntity() finished in 942 ms
+2023-09-23 07:35:52,123 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:35:52,137 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-SPVqAp1R-9]: Stopping application BasicApplicationImpl{id=ga9nvd7da9}
+2023-09-23 07:35:52,143 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-SPVqAp1R-0]: MySampleImpl.stop()
+2023-09-23 07:35:52,150 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-SPVqAp1R-9]: Stopped application BasicApplicationImpl{id=ga9nvd7da9}
+2023-09-23 07:35:52,168 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 45 ms
+2023-09-23 07:35:52,169 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:35:52,170 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@3fbcfe81
+2023-09-23 07:35:52,183 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 14 ms
+2023-09-23 07:35:52,185 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework()
+2023-09-23 07:35:52,537 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config defaultval
+2023-09-23 07:35:52,684 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-HVyzJiwR-1]: MySampleImpl.start([])
+2023-09-23 07:35:52,686 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-HVyzJiwR-1]: Setting MySampleImpl{id=wfvxd5dzay} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:35:52,775 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-HVyzJiwR-12]: MySampleImpl.myEffector(myVal)
+2023-09-23 07:35:52,791 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-HVyzJiwR-7]: MySampleImpl.stop()
+2023-09-23 07:35:52,844 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-HVyzJiwR-0]: Started application BasicApplicationImpl{id=ncpb9jv2am}
+2023-09-23 07:35:52,847 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 34 task(s)
+2023-09-23 07:35:52,902 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework() finished in 706 ms
+2023-09-23 07:35:52,905 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:35:52,909 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-HVyzJiwR-0]: Stopping application BasicApplicationImpl{id=ncpb9jv2am}
+2023-09-23 07:35:52,914 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-HVyzJiwR-2]: MySampleImpl.stop()
+2023-09-23 07:35:52,943 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-HVyzJiwR-0]: Stopped application BasicApplicationImpl{id=ncpb9jv2am}
+2023-09-23 07:35:52,970 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 65 ms
+2023-09-23 07:35:52,971 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp()
+2023-09-23 07:35:52,972 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@73d3e555
+2023-09-23 07:35:53,056 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp() finished in 85 ms
+2023-09-23 07:35:53,062 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleTest.testEntity()
+2023-09-23 07:35:53,102 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:35:53,126 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-CImDGcXs-2]: MySampleImpl.start([])
+2023-09-23 07:35:53,128 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-CImDGcXs-2]: Setting MySampleImpl{id=im5bad4y3w} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:35:53,144 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.myEffector(myArgVal)
+2023-09-23 07:35:53,147 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-CImDGcXs-6]: MySampleImpl.stop()
+2023-09-23 07:35:53,159 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleTest.testEntity() finished in 100 ms
+2023-09-23 07:35:53,160 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown()
+2023-09-23 07:35:53,172 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown() finished in 12 ms
+2023-09-23 07:35:53,196 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG 
+===============================================
+    Surefire test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+2023-09-23 07:36:26,371 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG RUNNING: Suite: "Surefire test" containing "3" Tests (config: null)
+2023-09-23 07:36:26,404 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:36:27,751 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@33c2bd
+2023-09-23 07:36:27,944 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 1541 ms
+2023-09-23 07:36:27,946 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testEntity()
+2023-09-23 07:36:28,569 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:36:28,678 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-IbTWQ6Ay-4]: MySampleImpl.start([])
+2023-09-23 07:36:28,741 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-IbTWQ6Ay-1]: Started application BasicApplicationImpl{id=gvq87rpvo2}
+2023-09-23 07:36:28,743 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 23 task(s)
+2023-09-23 07:36:28,794 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testEntity() finished in 847 ms
+2023-09-23 07:36:28,795 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:36:28,804 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-IbTWQ6Ay-1]: Stopping application BasicApplicationImpl{id=gvq87rpvo2}
+2023-09-23 07:36:28,808 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-IbTWQ6Ay-3]: MySampleImpl.stop()
+2023-09-23 07:36:28,819 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-IbTWQ6Ay-1]: Stopped application BasicApplicationImpl{id=gvq87rpvo2}
+2023-09-23 07:36:28,839 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 44 ms
+2023-09-23 07:36:28,840 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:36:28,841 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@38a1a26
+2023-09-23 07:36:28,851 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 11 ms
+2023-09-23 07:36:28,851 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework()
+2023-09-23 07:36:29,212 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config defaultval
+2023-09-23 07:36:29,365 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-vEjCqFt6-5]: MySampleImpl.start([])
+2023-09-23 07:36:29,367 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-vEjCqFt6-5]: Setting MySampleImpl{id=ieu7qzwb5i} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:36:29,455 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-vEjCqFt6-1]: MySampleImpl.myEffector(myVal)
+2023-09-23 07:36:29,466 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-vEjCqFt6-11]: MySampleImpl.stop()
+2023-09-23 07:36:29,514 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-vEjCqFt6-4]: Started application BasicApplicationImpl{id=o6wnn9uc7q}
+2023-09-23 07:36:29,515 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 34 task(s)
+2023-09-23 07:36:29,554 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework() finished in 701 ms
+2023-09-23 07:36:29,555 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:36:29,575 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-vEjCqFt6-4]: Stopping application BasicApplicationImpl{id=o6wnn9uc7q}
+2023-09-23 07:36:29,581 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-vEjCqFt6-3]: MySampleImpl.stop()
+2023-09-23 07:36:29,606 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-vEjCqFt6-4]: Stopped application BasicApplicationImpl{id=o6wnn9uc7q}
+2023-09-23 07:36:29,628 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 73 ms
+2023-09-23 07:36:29,629 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp()
+2023-09-23 07:36:29,630 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@4eb1c69
+2023-09-23 07:36:29,713 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp() finished in 84 ms
+2023-09-23 07:36:29,715 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleTest.testEntity()
+2023-09-23 07:36:29,753 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:36:29,775 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-lG2KhIEO-0]: MySampleImpl.start([])
+2023-09-23 07:36:29,777 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-lG2KhIEO-0]: Setting MySampleImpl{id=mc3g9r0lx5} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:36:29,796 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.myEffector(myArgVal)
+2023-09-23 07:36:29,800 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-lG2KhIEO-8]: MySampleImpl.stop()
+2023-09-23 07:36:29,815 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleTest.testEntity() finished in 99 ms
+2023-09-23 07:36:29,815 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown()
+2023-09-23 07:36:29,825 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown() finished in 10 ms
+2023-09-23 07:36:29,846 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG 
+===============================================
+    Surefire test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+2023-09-23 07:40:50,795 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG RUNNING: Suite: "Surefire test" containing "3" Tests (config: null)
+2023-09-23 07:40:50,844 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:40:52,455 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@33c2bd
+2023-09-23 07:40:52,653 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 1809 ms
+2023-09-23 07:40:52,657 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testEntity()
+2023-09-23 07:40:53,423 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:40:53,546 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-jIa1nIQJ-1]: MySampleImpl.start([])
+2023-09-23 07:40:53,550 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-jIa1nIQJ-1]: Setting MySampleImpl{id=h0clqbl3pu} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:40:53,620 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-jIa1nIQJ-4]: Started application BasicApplicationImpl{id=lboxu9ruf2}
+2023-09-23 07:40:53,621 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 28 task(s)
+2023-09-23 07:40:53,669 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testEntity() finished in 1011 ms
+2023-09-23 07:40:53,671 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:40:53,690 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-jIa1nIQJ-1]: Stopping application BasicApplicationImpl{id=lboxu9ruf2}
+2023-09-23 07:40:53,698 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-jIa1nIQJ-2]: MySampleImpl.stop()
+2023-09-23 07:40:53,703 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-jIa1nIQJ-1]: Stopped application BasicApplicationImpl{id=lboxu9ruf2}
+2023-09-23 07:40:53,719 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 48 ms
+2023-09-23 07:40:53,719 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp()
+2023-09-23 07:40:53,720 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@20011bf
+2023-09-23 07:40:53,737 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.setUp() finished in 18 ms
+2023-09-23 07:40:53,738 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework()
+2023-09-23 07:40:54,115 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config defaultval
+2023-09-23 07:40:54,273 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-Rz943N9X-2]: MySampleImpl.start([])
+2023-09-23 07:40:54,275 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-Rz943N9X-2]: Setting MySampleImpl{id=aivncwlwyu} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:40:54,370 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-Rz943N9X-9]: MySampleImpl.myEffector(myVal)
+2023-09-23 07:40:54,395 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-Rz943N9X-8]: MySampleImpl.stop()
+2023-09-23 07:40:54,437 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-Rz943N9X-1]: Started application BasicApplicationImpl{id=ujmgs8h0rb}
+2023-09-23 07:40:54,439 INFO  o.a.b.c.b.AbstractYamlTest [main]: Waiting on 34 task(s)
+2023-09-23 07:40:54,499 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleYamlTest.testUsingTestFramework() finished in 760 ms
+2023-09-23 07:40:54,501 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown()
+2023-09-23 07:40:54,515 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-Rz943N9X-1]: Stopping application BasicApplicationImpl{id=ujmgs8h0rb}
+2023-09-23 07:40:54,518 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-Rz943N9X-3]: MySampleImpl.stop()
+2023-09-23 07:40:54,535 INFO  o.a.b.c.e.AbstractApplication [brooklyn-execmanager-Rz943N9X-1]: Stopped application BasicApplicationImpl{id=ujmgs8h0rb}
+2023-09-23 07:40:54,556 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.camp.brooklyn.AbstractYamlTest.tearDown() finished in 55 ms
+2023-09-23 07:40:54,558 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp()
+2023-09-23 07:40:54,558 INFO  o.a.b.c.m.i.BasicExternalConfigSupplierRegistry [main]: Added external config supplier named 'brooklyn-demo-sample': org.apache.brooklyn.core.config.external.InPlaceExternalConfigSupplier@2af46afd
+2023-09-23 07:40:54,682 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @BeforeMethod org.apache.brooklyn.core.test.BrooklynAppUnitTestSupport.setUp() finished in 124 ms
+2023-09-23 07:40:54,683 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING: "Surefire test" - com.marolix.MySampleTest.testEntity()
+2023-09-23 07:40:54,713 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.init() with config myConfVal
+2023-09-23 07:40:54,734 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-hkIQub2J-5]: MySampleImpl.start([])
+2023-09-23 07:40:54,734 WARN  o.a.b.c.e.l.ServiceStateLogic$ComputeServiceState [brooklyn-execmanager-hkIQub2J-5]: Setting MySampleImpl{id=bal911uqnx} on-fire due to problems when expected running, up=false, not-up-indicators: {}
+2023-09-23 07:40:54,761 INFO  com.marolix.MySampleImpl [main]: MySampleImpl.myEffector(myArgVal)
+2023-09-23 07:40:54,764 INFO  com.marolix.MySampleImpl [brooklyn-execmanager-hkIQub2J-8]: MySampleImpl.stop()
+2023-09-23 07:40:54,778 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED: "Surefire test" - com.marolix.MySampleTest.testEntity() finished in 95 ms
+2023-09-23 07:40:54,782 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG INVOKING CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown()
+2023-09-23 07:40:54,795 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG PASSED CONFIGURATION: "Surefire test" - @AfterMethod org.apache.brooklyn.core.test.BrooklynMgmtUnitTestSupport.tearDown() finished in 14 ms
+2023-09-23 07:40:54,820 INFO  o.a.b.t.s.LoggingVerboseReporter [main]: TESTNG 
+===============================================
+    Surefire test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================

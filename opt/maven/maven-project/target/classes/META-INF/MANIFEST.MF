@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1695454847461
+Brooklyn-Feature-Name: Sample Apache Brooklyn Project com.marolix:maven-
+ project v1.0-SNAPSHOT
+Build-Jdk: 17.0.8.1
+Built-By: root
+Bundle-Description: Sample Apache Brooklyn Project for Java entity devel
+ opment, and OSGi bundle generation.
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample Apache Brooklyn Project com.marolix:maven-project v1
+ .0-SNAPSHOT
+Bundle-SymbolicName: com.marolix.maven-project
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.marolix;version="1.0.0";uses:="org.apache.brooklyn.a
+ pi.entity,org.apache.brooklyn.api.location,org.apache.brooklyn.api.sens
+ or,org.apache.brooklyn.config,org.apache.brooklyn.core.annotation,org.a
+ pache.brooklyn.core.entity,org.apache.brooklyn.core.entity.trait"
+Implementation-Branch: UNKNOWN_BRANCH
+Implementation-Title: Sample Apache Brooklyn Project com.marolix:maven-p
+ roject v1.0-SNAPSHOT
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: com.marolix
+Implementation-Version: 1.0-SNAPSHOT
+Import-Package: org.apache.brooklyn.api.entity;version="[1.0,2)",org.apa
+ che.brooklyn.api.location;version="[1.0,2)",org.apache.brooklyn.api.sen
+ sor;version="[1.0,2)",org.apache.brooklyn.config;version="[1.0,2)",org.
+ apache.brooklyn.core.annotation;version="[1.0,2)",org.apache.brooklyn.c
+ ore.config;version="[1.0,2)",org.apache.brooklyn.core.entity;version="[
+ 1.0,2)",org.apache.brooklyn.core.entity.lifecycle;version="[1.0,2)",org
+ .apache.brooklyn.core.entity.trait;version="[1.0,2)",org.apache.brookly
+ n.core.sensor;version="[1.0,2)",org.slf4j;version="[1.7,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Sample Apache Brooklyn Project com.marolix:maven-pr
+ oject v1.0-SNAPSHOT
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.0-SNAPSHOT
+Tool: Bnd-3.2.0.201605172007
